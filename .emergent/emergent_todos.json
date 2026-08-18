@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Fase L: master `product_lines` (MasterSpec) + pagar entitas (entity_scope, indexes, ENTITY_REGISTRY.md)",
+    "status": "in_progress"
+  },
+  {
+    "content": "Fase L: services/line_scope.py + master_registry.py (nilai lini hidup ke /api/enums)",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: field `products.line_code` + `users.allowed_line_codes` (schema, router, validasi ⊆ master)",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: sisipkan pagar lini di daftar & aksi 12 koleksi (router + service)",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: migrasi `migrate_lini_produk.py` (idempotent, --dry-run, laporan keputusan) + seed",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: gate INV-LINE-01 & INV-LINE-02 ber---self-test + daftarkan di gate.sh",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: POC test_core_lini_poc.py (L1–L8) hijau",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L frontend: LineFilter.jsx + masterFieldsConfig.js + 12 layar + editor lini di Akun & Akses",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: gate.sh --full hijau + audit_md_erp_readiness --fase L bersih",
+    "status": "pending"
+  },
+  {
+    "content": "Fase L: uji end-to-end lewat testing agent (user story L1-L4) + perbarui plan.md",
+    "status": "pending"
+  }
+]
